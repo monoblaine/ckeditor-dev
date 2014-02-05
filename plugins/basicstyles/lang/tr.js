@@ -4,7 +4,7 @@ For licensing, see LICENSE.md or http://ckeditor.com/license
 */
 CKEDITOR.plugins.setLang( 'basicstyles', 'tr', {
 	bold: 'Kalın',
-	italic: 'İtalik',
+	italic: 'Eğik',
 	strike: 'Üstü Çizgili',
 	subscript: 'Alt Simge',
 	superscript: 'Üst Simge',

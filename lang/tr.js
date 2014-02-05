@@ -18,8 +18,8 @@
  */
 CKEDITOR.lang[ 'tr' ] = {
 	// ARIA description.
-	editor: 'Zengin Metin Editörü',
-	editorPanel: 'Rich Text Editor panel', // MISSING
+	editor: 'Zengin Metin Düzenleyicisi',
+	editorPanel: 'Zengin Metin Düzenleyicisi Paneli',
 
 	// Common messages and labels.
 	common: {
@@ -87,10 +87,10 @@ CKEDITOR.lang[ 'tr' ] = {
 		invalidHeight: 'Yükseklik değeri bir sayı olmalıdır.',
 		invalidWidth: 'Genişlik değeri bir sayı olmalıdır.',
 		invalidCssLength: '"%1" alanı için verilen değer, geçerli bir CSS ölçü birimi (px, %, in, cm, mm, em, ex, pt, veya pc) içeren veya içermeyen pozitif bir sayı olmalıdır.',
-		invalidHtmlLength: 'Belirttiğiniz sayı "%1" alanı için pozitif bir sayı HTML birim değeri olmalıdır (px veya %).',
+		invalidHtmlLength: '"%1" alanı için verilen değer, geçerli bir HTML ölçü birimi içeren veya içermeyen pozitif bir sayı olmalıdır.',
 		invalidInlineStyle: 'Satıriçi biçem için verilen değer, "isim : değer" biçiminde birbirinden noktalı virgüllerle ayrılan bir veya daha fazla değişkenler grubundan oluşmalıdır.',
 		cssLengthTooltip: 'Piksel türünde bir sayı veya geçerli bir CSS ölçü birimi (px, %, in, cm, mm, em, ex, pt veya pc) içeren bir sayı girin.',
-
+		
 		// Put the voice-only part of the label in the span.
 		unavailable: '%1<span class="cke_accessibility">, kullanılamaz</span>'
 	}
