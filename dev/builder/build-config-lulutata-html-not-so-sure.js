@@ -37,7 +37,6 @@ var CKBUILDER_CONFIG = {
 	plugins : {
 		'autogrow' : 1,
 		'basicstyles' : 1,
-		'bbcode' : 1,
 		'blockquote' : 1,
 		'clipboard' : 1,
 		'enterkey' : 1,
@@ -57,7 +56,8 @@ var CKBUILDER_CONFIG = {
 		'resize' : 1,
 		'toolbar' : 1,
 		'undo' : 1,
-		'wysiwygarea' : 1
+		'wysiwygarea' : 1,
+		'htmlwriter' : 1
 	},
 	languages : {
 		'en' : 1,
