@@ -6,8 +6,8 @@
 CKEDITOR.plugins.setLang( 'uicolor', 'tr', {
 	title: 'UI Renk Seçici',
 	options: 'Renk Seçenekleri',
-	highlight: 'Highlight', // MISSING
-	selected: 'Seçilmiş Renk',
-	predefined: 'Önceden tanımlı renk seti',
+	highlight: 'Vurgula',
+	selected: 'Seçili Renk',
+	predefined: 'Ön tanımlı renk kümeleri',
 	config: 'Bu yazıyı config.js dosyasının içine yapıştırın'
 } );
