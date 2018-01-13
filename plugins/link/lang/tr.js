@@ -1,4 +1,4 @@
-﻿/*
+/*
 Copyright (c) 2003-2024, CKSource Holding sp. z o.o. All rights reserved.
 CKEditor 4 LTS ("Long Term Support") is available under the terms of the Extended Support Model.
 */
@@ -26,17 +26,17 @@ CKEDITOR.plugins.setLang( 'link', 'tr', {
 	emailBody: 'İleti Gövdesi',
 	emailSubject: 'İleti Konusu',
 	id: 'Id',
-	info: 'Link Bilgisi',
+	info: 'Bağlantı Bilgisi',
 	langCode: 'Dil Yönü',
 	langDir: 'Dil Yönü',
 	langDirLTR: 'Soldan Sağa (LTR)',
 	langDirRTL: 'Sağdan Sola (RTL)',
-	menu: 'Link Düzenle',
+	menu: 'Bağlantıyı Düzenle',
 	name: 'Ad',
 	noAnchors: '(Bu belgede hiç çapa yok)',
-	noEmail: 'Lütfen E-posta adresini yazın',
-	noUrl: 'Lütfen Link URL\'sini yazın',
-	noTel: 'Lütfen telefon numaranızı yazınız',
+	noEmail: 'Lütfen e-posta adresini yazın',
+	noUrl: 'Lütfen bağlantı adresini yazın',
+	noTel: 'Lütfen telefon numarasını yazın',
 	other: '<diğer>',
 	phoneNumber: 'Telefon numarası',
 	popupDependent: 'Bağımlı (Netscape)',
@@ -59,13 +59,13 @@ CKEDITOR.plugins.setLang( 'link', 'tr', {
 	targetFrameName: 'Hedef Çerçeve Adı',
 	targetPopup: '<yeni açılan pencere>',
 	targetPopupName: 'Yeni Açılan Pencere Adı',
-	title: 'Link',
+	title: 'Bağlantı',
 	toAnchor: 'Bu sayfada çapa',
 	toEmail: 'E-Posta',
 	toUrl: 'URL',
 	toPhone: 'Telefon',
-	toolbar: 'Link Ekle/Düzenle',
-	type: 'Link Türü',
-	unlink: 'Köprü Kaldır',
+	toolbar: 'Bağlantı Ekle/Düzenle',
+	type: 'Bağlantı Türü',
+	unlink: 'Bağlantıyı Kaldır',
 	upload: 'Karşıya Yükle'
 } );

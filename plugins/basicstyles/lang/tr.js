@@ -4,7 +4,7 @@ CKEditor 4 LTS ("Long Term Support") is available under the terms of the Extende
 */
 CKEDITOR.plugins.setLang( 'basicstyles', 'tr', {
 	bold: 'Kalın',
-	italic: 'İtalik',
+	italic: 'Eğik',
 	strike: 'Üstü Çizgili',
 	subscript: 'Alt Simge',
 	superscript: 'Üst Simge',

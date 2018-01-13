@@ -18,9 +18,9 @@
  */
 CKEDITOR.lang[ 'tr' ] = {
 	// ARIA description.
-	application: 'Rich Text Editor', // MISSING
-	editor: 'Zengin Metin Editörü',
-	editorPanel: 'Zengin Metin Editör Paneli',
+	application: 'Zengin Metin Düzenleyicisi',
+	editor: 'Zengin Metin Düzenleyicisi',
+	editorPanel: 'Zengin Metin Düzenleyicisi Paneli',
 
 	// Common messages and labels.
 	common: {
@@ -35,7 +35,7 @@ CKEDITOR.lang[ 'tr' ] = {
 		uploadSubmit: 'Sunucuya Gönder',
 		image: 'Resim',
 		form: 'Form',
-		checkbox: 'Seçim Kutusu',
+		checkbox: 'Onay Kutusu',
 		radio: 'Seçenek Düğmesi',
 		textField: 'Metin Kutusu',
 		textarea: 'Metin Alanı',
@@ -51,9 +51,9 @@ CKEDITOR.lang[ 'tr' ] = {
 		langDirRtl: 'Sağdan Sola (RTL)',
 		langCode: ' Dil Kodu',
 		longDescr: 'Uzun Açıklamalı URL',
-		cssClass: 'Stil Sınıfları',
+		cssClass: 'Biçem Sınıfı',
 		advisoryTitle: 'Öneri Başlığı',
-		cssStyle: 'Stil',
+		cssStyle: 'Biçem',
 		ok: 'Tamam',
 		cancel: 'İptal',
 		close: 'Kapat',
@@ -72,8 +72,8 @@ CKEDITOR.lang[ 'tr' ] = {
 		targetParent: 'Üst Pencere (_parent)',
 		langDirLTR: 'Soldan Sağa (LTR)',
 		langDirRTL: 'Sağdan Sola (RTL)',
-		styles: 'Stil',
-		cssClasses: 'Stil Sınıfları',
+		styles: 'Biçem',
+		cssClasses: 'Biçem Sayfası Sınıfları',
 		width: 'Genişlik',
 		height: 'Yükseklik',
 		align: 'Hizalama',
@@ -93,8 +93,8 @@ CKEDITOR.lang[ 'tr' ] = {
 		invalidWidth: 'Genişlik değeri bir sayı olmalıdır.',
 		invalidLength: '"%1" alanı için belirtilen değer, geçerli bir ölçü birimi olsun veya olmasın (%2) pozitif bir sayı olmalıdır.',
 		invalidCssLength: '"%1" alanı için verilen değer, geçerli bir CSS ölçü birimi (px, %, in, cm, mm, em, ex, pt, veya pc) içeren veya içermeyen pozitif bir sayı olmalıdır.',
-		invalidHtmlLength: '"%1" alanı için belirttiğiniz sayı, HTML (px veya %) birimi olsun yada olmasın pozitif bir değeri olmalıdır.',
-		invalidInlineStyle: 'Satıriçi stil için verilen değer, "isim : değer" biçiminde birbirinden noktalı virgüllerle ayrılan bir veya daha fazla değişkenler grubundan oluşmalıdır.',
+		invalidHtmlLength: '"%1" alanı için verilen değer, geçerli bir HTML ölçü birimi içeren veya içermeyen pozitif bir sayı olmalıdır.',
+		invalidInlineStyle: 'Satıriçi biçem için verilen değer, "isim : değer" biçiminde birbirinden noktalı virgüllerle ayrılan bir veya daha fazla değişkenler grubundan oluşmalıdır.',
 		cssLengthTooltip: 'Piksel türünde bir sayı veya geçerli bir CSS ölçü birimi (px, %, in, cm, mm, em, ex, pt veya pc) içeren bir sayı girin.',
 
 		// Put the voice-only part of the label in the span.
@@ -141,7 +141,7 @@ CKEDITOR.lang[ 'tr' ] = {
 		// Prepended to ARIA labels with shortcuts.
 		keyboardShortcut: 'Klavye Kısayolu',
 
-		optionDefault: 'Varsayılan'
+		optionDefault: 'Ön tanımlı'
 	},
 
 	versionCheck: {
