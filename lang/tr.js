@@ -45,7 +45,7 @@ CKEDITOR.lang[ 'tr' ] = {
 		imageButton: 'Resim Düğmesi',
 		notSet: '<tanımlanmamış>',
 		id: 'Kimlik',
-		name: 'İsim',
+		name: 'Ad',
 		langDir: 'Dil Yönü',
 		langDirLtr: 'Soldan Sağa (LTR)',
 		langDirRtl: 'Sağdan Sola (RTL)',
