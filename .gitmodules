@@ -4,3 +4,6 @@
 [submodule "plugins/html5video-repo"]
 	path = plugins/html5video-repo
 	url = git@github.com:monoblaine/ckeditor-html5-video.git
+[submodule "skins/bootstrapck-repo"]
+	path = skins/bootstrapck-repo
+	url = git@github.com:monoblaine/BootstrapCK4-Skin.git
