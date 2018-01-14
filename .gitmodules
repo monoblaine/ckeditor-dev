@@ -1,0 +1,3 @@
+[submodule "plugins/simage"]
+	path = plugins/simage
+	url = git@github.com:monoblaine/ckeditor-image-uploader-plugin.git
