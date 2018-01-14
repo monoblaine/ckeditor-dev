@@ -1,3 +1,6 @@
 [submodule "plugins/simage"]
 	path = plugins/simage
 	url = git@github.com:monoblaine/ckeditor-image-uploader-plugin.git
+[submodule "plugins/html5video-repo"]
+	path = plugins/html5video-repo
+	url = git@github.com:monoblaine/ckeditor-html5-video.git
