@@ -5,72 +5,61 @@
 
 CKEDITOR.editorConfig = function( config ) {
 	// Define changes to default configuration here. For example:
-	// config.language = 'fr';
+	config.language = 'tr';
+
+    config.toolbarGroups = [
+		{ name: 'document', groups: [ 'mode', 'document', 'doctools' ] },
+		{ name: 'clipboard', groups: [ 'clipboard', 'undo' ] },
+		{ name: 'editing', groups: [ 'find', 'selection', 'spellchecker', 'editing' ] },
+		{ name: 'forms', groups: [ 'forms' ] },
+		'/',
+		{ name: 'basicstyles', groups: [ 'basicstyles', 'cleanup' ] },
+		{ name: 'paragraph', groups: [ 'list', 'indent', 'blocks', 'align', 'bidi', 'paragraph' ] },
+		{ name: 'links', groups: [ 'links' ] },
+		{ name: 'insert', groups: [ 'insert' ] },
+		{ name: 'styles', groups: [ 'styles' ] },
+		{ name: 'colors', groups: [ 'colors' ] },
+		{ name: 'tools', groups: [ 'tools' ] },
+		{ name: 'others', groups: [ 'others' ] },
+		{ name: 'about', groups: [ 'about' ] }
+	];
+
+	config.removeButtons = 'Styles,Anchor,Blockquote';
+
 	// config.uiColor = '#AADC6E';
 	// %REMOVE_START%
 	config.plugins =
-		'about,' +
 		'a11yhelp,' +
+		'autogrow,' +
 		'basicstyles,' +
-		'bidi,' +
 		'blockquote,' +
 		'clipboard,' +
-		'colorbutton,' +
-		'colordialog,' +
-		'copyformatting,' +
 		'contextmenu,' +
-		'dialogadvtab,' +
-		'div,' +
-		'elementspath,' +
+		'divarea,' +
 		'enterkey,' +
 		'entities,' +
-		'filebrowser,' +
-		'find,' +
-		'floatingspace,' +
-		'font,' +
 		'format,' +
-		'forms,' +
 		'horizontalrule,' +
+		'html5video,' +
 		'htmlwriter,' +
-		'image,' +
-		'iframe,' +
-		'indentlist,' +
 		'indentblock,' +
+		'indentlist,' +
 		'justify,' +
-		'language,' +
 		'link,' +
 		'list,' +
-		'liststyle,' +
-		'magicline,' +
-		'maximize,' +
-		'newpage,' +
-		'pagebreak,' +
-		'pastefromgdocs,' +
 		'pastefromlibreoffice,' +
 		'pastefromword,' +
 		'pastetext,' +
-		'editorplaceholder,' +
-		'preview,' +
-		'print,' +
 		'removeformat,' +
-		'resize,' +
-		'save,' +
-		'selectall,' +
-		'showblocks,' +
 		'showborders,' +
-		'smiley,' +
-		'sourcearea,' +
+		'simage,' +
 		'specialchar,' +
 		'stylescombo,' +
 		'tab,' +
 		'table,' +
-		'tableselection,' +
 		'tabletools,' +
-		'templates,' +
 		'toolbar,' +
-		'undo,' +
-		'uploadimage,' +
-		'wysiwygarea';
+		'undo';
 	// %REMOVE_END%
 };
 
