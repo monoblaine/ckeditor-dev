@@ -34,6 +34,7 @@ CKEDITOR.editorConfig = function( config ) {
 		'basicstyles,' +
 		'blockquote,' +
 		'clipboard,' +
+		'colorbutton,' +
 		'contextmenu,' +
 		'divarea,' +
 		'enterkey,' +
