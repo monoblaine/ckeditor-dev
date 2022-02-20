@@ -1,5 +1,5 @@
 {
-	"name": "ckeditor4-dev",
+	"name": "@abt/ckeditor-dev",
 	"version": "4.25.0",
 	"description": "The development version of CKEditor - JavaScript WYSIWYG web text editor.",
 	"devDependencies": {
